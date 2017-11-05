@@ -8,6 +8,10 @@ body {
     color: black;
 }
 
+.upper {
+    text-transform: uppercase;
+}
+
 ul {
     text-align: center;
 }
@@ -59,4 +63,83 @@ ul a:hover {
     box-shadow: inset 0px 35px 0px 0px white;
 }
 
+/* offer */
+#offer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#offer h2:after {
+    content: " ";
+    display: inline-block;
+    background-color: #d7d7d7;
+    width: 150px;
+    height: 10px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+ }
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+p.discription {
+    max-width: 65%;
+    line-height: 1rem; 
+}
+
+#offer .list {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.firstlist h3, .secondlist h3 {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.firstlist, .secondlist {
+    float: left;
+    margin-right: 70px;
+    width: 120px;
+}
+
+.firstlist ul li, .secondlist ul li {
+    display: block;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 0.5rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.firstlist ul li:last-child {
+    border-bottom: none;
+}
+
+.workspace {
+    float: right;
+    margin-top: -220px;
+}
+
+.workspace p {
+    margin-bottom: 10px;
+}
+
+#offer .workspace:before {
+    content: " ";
+    display: inline-block;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 6px solid #d7d7d7;
+    margin-left: -32px;
+    margin-bottom: -50px;
+ }
 
